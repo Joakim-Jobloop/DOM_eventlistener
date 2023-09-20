@@ -36,7 +36,7 @@ movable.style.height = `${currentSize}px`;
 // vi må ha et parameter fordi vi vil fange opp .key fra de forskjellig tastetrykkene
 document.addEventListener("keydown", function(e) {
     // keydown har en property som heter key og vi ser om (knappen man trykker på).key er det samme som "ArrowUp" (som refererer til piltast opp) 
-if  (e.key === "ArrowUp".key) {
+if  (e.key === "ArrowUp") {
     // hvis koden over stemmer kjøres koden under
     // posisjon Y blir oppdatert med å flytte elementet 10px oppover (translate(0px,-10px))
 posY -= moveAmount; 
